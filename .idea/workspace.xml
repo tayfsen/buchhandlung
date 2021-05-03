@@ -22,21 +22,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e182484-2424-40cb-b098-7cdc5d647111" name="Default Changelist" comment="Domainen wurden angelegt mit den zugehörigen Repos">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bestellung/src/main/java/at/itkollegimst/sen/pos1makro/test2/buchhandlung/domain/bestellung/CreateBestellungCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/buchhandlung/src/main/java/at/itkollegimst/sen/pos1makro/test2/buchhandlung/domain/buchhandlung/CreateBuchhandlungCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drucker/src/main/java/at/itkollegimst/sen/pos1makro/test2/buchhandlung/domain/drucker/CreateDruckerCommand.java" afterDir="false" />
+    <list default="true" id="3e182484-2424-40cb-b098-7cdc5d647111" name="Default Changelist" comment="package Namen wurden geändert, lombok als dependency wurde hinzugefügt, und CommandKlasse wurde erstellt für die Domainen">
+      <change afterPath="$PROJECT_DIR$/bestellung/src/main/java/at/itkollegimst/sen/pos1makro/test2/buchhandlung/domain/bestellung/BestellungCommandService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bestellung/src/main/java/at/itkollegimst/sen/pos1makro/test2/buchhandlung/domain/bestellung/BestellungQueryService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bestellung/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bestellung/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bestellung/src/main/java/at/itkollegimst/sen/pos1makro/test2/buchhandlung/domain/drucker/Bestellung.java" beforeDir="false" afterPath="$PROJECT_DIR$/bestellung/src/main/java/at/itkollegimst/sen/pos1makro/test2/buchhandlung/domain/bestellung/Bestellung.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bestellung/src/main/java/at/itkollegimst/sen/pos1makro/test2/buchhandlung/infrastructure/repo/BestellungRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/bestellung/src/main/java/at/itkollegimst/sen/pos1makro/test2/buchhandlung/infrastructure/repo/BestellungRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buchhandlung/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/buchhandlung/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buchhandlung/src/main/java/at/itkollegimst/sen/pos1makro/test2/buchhandlung/domain/drucker/Buchhandlung.java" beforeDir="false" afterPath="$PROJECT_DIR$/buchhandlung/src/main/java/at/itkollegimst/sen/pos1makro/test2/buchhandlung/domain/buchhandlung/Buchhandlung.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buchhandlung/src/main/java/at/itkollegimst/sen/pos1makro/test2/buchhandlung/infrastructure/repo/BuchhandlungRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/buchhandlung/src/main/java/at/itkollegimst/sen/pos1makro/test2/buchhandlung/infrastructure/repo/BuchhandlungRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drucker/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/drucker/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drucker/src/main/java/at/itkollegimst/sen/pos1makro/test2/buchhandlung/domain/drucker/Drucker.java" beforeDir="false" afterPath="$PROJECT_DIR$/drucker/src/main/java/at/itkollegimst/sen/pos1makro/test2/buchhandlung/domain/drucker/Drucker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,6 +91,17 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.BestellungApplication">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BestellungApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="bestellung" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="at.itkollegimst.sen.pos1makro.test2.buchhandlung.BestellungApplication" />
@@ -133,7 +134,7 @@
       <updated>1619900696669</updated>
       <workItem from="1619900697911" duration="2350000" />
       <workItem from="1619960329489" duration="6653000" />
-      <workItem from="1620072670840" duration="336000" />
+      <workItem from="1620072670840" duration="2219000" />
     </task>
     <task id="LOCAL-00001" summary="Domainen wurden angelegt mit den zugehörigen Repos">
       <created>1619902420233</created>
@@ -142,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619902420233</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="package Namen wurden geändert, lombok als dependency wurde hinzugefügt, und CommandKlasse wurde erstellt für die Domainen">
+      <created>1620073057277</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1620073057277</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,7 +170,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Domainen wurden angelegt mit den zugehörigen Repos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Domainen wurden angelegt mit den zugehörigen Repos" />
+    <MESSAGE value="package Namen wurden geändert, lombok als dependency wurde hinzugefügt, und CommandKlasse wurde erstellt für die Domainen" />
+    <option name="LAST_COMMIT_MESSAGE" value="package Namen wurden geändert, lombok als dependency wurde hinzugefügt, und CommandKlasse wurde erstellt für die Domainen" />
   </component>
   <component name="WindowStateProjectService">
     <state x="484" y="136" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1619901932432">
