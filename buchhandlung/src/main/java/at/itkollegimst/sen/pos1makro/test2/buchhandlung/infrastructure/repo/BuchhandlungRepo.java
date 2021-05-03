@@ -4,4 +4,5 @@ import at.itkollegimst.sen.pos1makro.test2.buchhandlung.domain.buchhandlung.Buch
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface BuchhandlungRepo extends JpaRepository<Buchhandlung, Long> {
+    Buchhandlung getBuchhandlungByBuchhandlung(String buchname);
 }

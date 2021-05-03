@@ -22,11 +22,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e182484-2424-40cb-b098-7cdc5d647111" name="Default Changelist" comment="package Namen wurden geändert, lombok als dependency wurde hinzugefügt, und CommandKlasse wurde erstellt für die Domainen">
-      <change afterPath="$PROJECT_DIR$/bestellung/src/main/java/at/itkollegimst/sen/pos1makro/test2/buchhandlung/domain/bestellung/BestellungCommandService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bestellung/src/main/java/at/itkollegimst/sen/pos1makro/test2/buchhandlung/domain/bestellung/BestellungQueryService.java" afterDir="false" />
+    <list default="true" id="3e182484-2424-40cb-b098-7cdc5d647111" name="Default Changelist" comment="BestellungQueryService wurde erstellt mit hilfe JpaRepo und ComandService wurde auch implementiert">
+      <change afterPath="$PROJECT_DIR$/buchhandlung/src/main/java/at/itkollegimst/sen/pos1makro/test2/buchhandlung/domain/buchhandlung/BuchhandlungCommandService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buchhandlung/src/main/java/at/itkollegimst/sen/pos1makro/test2/buchhandlung/domain/buchhandlung/BuchhandlungQueryService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bestellung/src/main/java/at/itkollegimst/sen/pos1makro/test2/buchhandlung/infrastructure/repo/BestellungRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/bestellung/src/main/java/at/itkollegimst/sen/pos1makro/test2/buchhandlung/infrastructure/repo/BestellungRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buchhandlung/src/main/java/at/itkollegimst/sen/pos1makro/test2/buchhandlung/infrastructure/repo/BuchhandlungRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/buchhandlung/src/main/java/at/itkollegimst/sen/pos1makro/test2/buchhandlung/infrastructure/repo/BuchhandlungRepo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +134,7 @@
       <updated>1619900696669</updated>
       <workItem from="1619900697911" duration="2350000" />
       <workItem from="1619960329489" duration="6653000" />
-      <workItem from="1620072670840" duration="2219000" />
+      <workItem from="1620072670840" duration="3578000" />
     </task>
     <task id="LOCAL-00001" summary="Domainen wurden angelegt mit den zugehörigen Repos">
       <created>1619902420233</created>
@@ -150,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620073057277</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="BestellungQueryService wurde erstellt mit hilfe JpaRepo und ComandService wurde auch implementiert">
+      <created>1620075456474</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1620075456475</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,7 +178,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Domainen wurden angelegt mit den zugehörigen Repos" />
     <MESSAGE value="package Namen wurden geändert, lombok als dependency wurde hinzugefügt, und CommandKlasse wurde erstellt für die Domainen" />
-    <option name="LAST_COMMIT_MESSAGE" value="package Namen wurden geändert, lombok als dependency wurde hinzugefügt, und CommandKlasse wurde erstellt für die Domainen" />
+    <MESSAGE value="BestellungQueryService wurde erstellt mit hilfe JpaRepo und ComandService wurde auch implementiert" />
+    <option name="LAST_COMMIT_MESSAGE" value="BestellungQueryService wurde erstellt mit hilfe JpaRepo und ComandService wurde auch implementiert" />
   </component>
   <component name="WindowStateProjectService">
     <state x="484" y="136" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1619901932432">
@@ -222,10 +230,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1011" height="196" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1619903072643" />
-    <state x="261" y="81" key="Vcs.Push.Dialog.v2" timestamp="1619902477529">
+    <state x="261" y="81" key="Vcs.Push.Dialog.v2" timestamp="1620075465161">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="261" y="81" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1619902477529" />
+    <state x="261" y="81" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1620075465161" />
     <state x="356" y="0" key="new project wizard" timestamp="1619900758364">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
