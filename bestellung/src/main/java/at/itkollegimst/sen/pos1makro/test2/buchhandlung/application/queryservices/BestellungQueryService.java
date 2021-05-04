@@ -1,12 +1,12 @@
-package at.itkollegimst.sen.pos1makro.test2.buchhandlung.domain.bestellung;
+package at.itkollegimst.sen.pos1makro.test2.buchhandlung.application.queryservices;
 
+import at.itkollegimst.sen.pos1makro.test2.buchhandlung.domain.model.Bestellung;
 import at.itkollegimst.sen.pos1makro.test2.buchhandlung.infrastructure.repo.BestellungRepo;
 import org.springframework.stereotype.Service;
 
-import java.util.Optional;
 
 @Service
-public class BestellungQueryService {
+public class BestellungQueryService{
 
     private final BestellungRepo bestellungRepo;
 
@@ -14,12 +14,10 @@ public class BestellungQueryService {
         this.bestellungRepo = bestellungRepo;
     }
 
-    public Optional<Bestellung> getBestellungByBestellungsnummer(String bestellungsnummer){
+    public Bestellung getBestellungByBestellungsnummer(String bestellungsnummer){
         return bestellungRepo.getBestellungByBestellungsnummer(bestellungsnummer);
     }
 
-    public boolean bestellungExisting(String bestellungsnummer){
-        return bestellungRepo.getBestellungByBestellungsnummer(bestellungsnummer).isPresent();
-    }
+
 
 }

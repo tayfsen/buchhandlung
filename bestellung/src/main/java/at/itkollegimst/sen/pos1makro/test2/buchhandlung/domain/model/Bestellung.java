@@ -1,4 +1,4 @@
-package at.itkollegimst.sen.pos1makro.test2.buchhandlung.domain.bestellung;
+package at.itkollegimst.sen.pos1makro.test2.buchhandlung.domain.model;
 
 
 import lombok.Data;
@@ -13,17 +13,17 @@ public class Bestellung  {
     private Long id;
 
     @Column(unique = true)
-    private String bestellnummer;
+    private String bestellungsnummer;
     private boolean abgeholt;
     private boolean bezahlt;
 
     public Bestellung() {
     }
 
-    public Bestellung(CreateBestellungCommand createBestellungCommand) {
-        this.bestellnummer = createBestellungCommand.getBestellnumer();
-        this.abgeholt = createBestellungCommand.getAbgeholt();
-        this.bezahlt = createBestellungCommand.getBezahlt();
+    public Bestellung(CreateBestellung createBestellung) {
+        this.bestellungsnummer = createBestellung.getBestellnummer();
+        this.abgeholt = createBestellung.getAbgeholt();
+        this.bezahlt = createBestellung.getBezahlt();
     }
 
 
@@ -31,8 +31,8 @@ public class Bestellung  {
         return id;
     }
 
-    public String getBestellnumer() {
-        return bestellnummer;
+    public String getBestellungsnummer() {
+        return bestellungsnummer;
     }
 
     public boolean getAbgeholt() {

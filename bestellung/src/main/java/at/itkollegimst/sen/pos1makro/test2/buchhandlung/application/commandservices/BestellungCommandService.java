@@ -1,5 +1,10 @@
-package at.itkollegimst.sen.pos1makro.test2.buchhandlung.domain.bestellung;
+package at.itkollegimst.sen.pos1makro.test2.buchhandlung.application.commandservices;
 
+
+import at.itkollegimst.sen.pos1makro.test2.buchhandlung.application.queryservices.BestellungQueryService;
+import at.itkollegimst.sen.pos1makro.test2.buchhandlung.domain.model.Bestellung;
+
+import at.itkollegimst.sen.pos1makro.test2.buchhandlung.domain.model.CreateBestellung;
 import at.itkollegimst.sen.pos1makro.test2.buchhandlung.infrastructure.repo.BestellungRepo;
 import org.springframework.stereotype.Service;
 
@@ -13,14 +18,16 @@ public BestellungCommandService(BestellungRepo bestellungRepo, BestellungQuerySe
 {
     this.bestellungRepo = bestellungRepo;
     this.bestellungQueryService = bestellungQueryService;
+
 }
 
-public void createBestellung(CreateBestellungCommand createBestellungCommand)
+public void createBestellung(CreateBestellung createBestellung)
 {
-    Bestellung bestellung = new Bestellung(createBestellungCommand);
+    Bestellung bestellung = new Bestellung(createBestellung);
     bestellungRepo.save(bestellung);
 
 }
+
 
 
 }

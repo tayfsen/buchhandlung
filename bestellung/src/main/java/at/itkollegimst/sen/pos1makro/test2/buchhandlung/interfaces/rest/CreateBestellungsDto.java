@@ -1,22 +1,21 @@
-package at.itkollegimst.sen.pos1makro.test2.buchhandlung.domain.bestellung;
+package at.itkollegimst.sen.pos1makro.test2.buchhandlung.interfaces.rest;
 
 import lombok.Value;
 
 @Value
-public class CreateBestellungCommand {
+public class CreateBestellungsDto {
     String bestellnummer;
     boolean abgeholt;
     boolean bezahlt;
 
-
-    public CreateBestellungCommand(String bestellnummer, boolean abgeholt, boolean bezahlt) {
+    public CreateBestellungsDto(String bestellnummer, boolean abgeholt, boolean bezahlt) {
         this.bestellnummer = bestellnummer;
         this.abgeholt = abgeholt;
         this.bezahlt = bezahlt;
     }
 
 
-    public String getBestellnumer() {
+    public String getBestellnummer() {
         return bestellnummer;
     }
 
