@@ -22,9 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e182484-2424-40cb-b098-7cdc5d647111" name="Default Changelist" comment="Package-Namen wurden geändernt, bei der BuchhandlungRepo wurde der Name von getBuchhandlungByBuchhandlung auf getBuchhandlungByBuchnummer geändernt.">
+    <list default="true" id="3e182484-2424-40cb-b098-7cdc5d647111" name="Default Changelist" comment="Rabbitmy-Server.exe wurde hinzugefügt">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buchhandlung/src/main/java/at/itkollegimst/sen/pos1makro/test2/buchhandlung/interfaces/rest/BuchhandlungController.java" beforeDir="false" afterPath="$PROJECT_DIR$/buchhandlung/src/main/java/at/itkollegimst/sen/pos1makro/test2/buchhandlung/interfaces/rest/BuchhandlungController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +60,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -140,7 +140,8 @@
       <workItem from="1620147918039" duration="3305000" />
       <workItem from="1620151283011" duration="6794000" />
       <workItem from="1620162451127" duration="5873000" />
-      <workItem from="1620812028564" duration="4390000" />
+      <workItem from="1620812028564" duration="5176000" />
+      <workItem from="1620820242965" duration="852000" />
     </task>
     <task id="LOCAL-00001" summary="Domainen wurden angelegt mit den zugehörigen Repos">
       <created>1619902420233</created>
@@ -184,7 +185,21 @@
       <option name="project" value="LOCAL" />
       <updated>1620813326669</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Rabbitmy-Server.exe wurde hinzugefügt">
+      <created>1620818911748</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1620818911748</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Rabbitmy-Server.exe wurde hinzugefügt">
+      <created>1620818922394</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1620818922394</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,13 +218,15 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Domainen wurden angelegt mit den zugehörigen Repos" />
     <MESSAGE value="package Namen wurden geändert, lombok als dependency wurde hinzugefügt, und CommandKlasse wurde erstellt für die Domainen" />
     <MESSAGE value="BestellungQueryService wurde erstellt mit hilfe JpaRepo und ComandService wurde auch implementiert" />
     <MESSAGE value="BuchhandlungQueryService wurde erstellt mit hilfe JpaRepo und ComandService wurde auch implementiert" />
     <MESSAGE value="Größere Änderungen bei Bestellung MS, es wurden die Package-Name geändert, Controller, CreateBestellungDto, Query für die Abfragen und Repo wurde dazu implementiert. Es wurde auch Postman schon verwendet um die um den Controller zu testen!" />
     <MESSAGE value="Package-Namen wurden geändernt, bei der BuchhandlungRepo wurde der Name von getBuchhandlungByBuchhandlung auf getBuchhandlungByBuchnummer geändernt." />
-    <option name="LAST_COMMIT_MESSAGE" value="Package-Namen wurden geändernt, bei der BuchhandlungRepo wurde der Name von getBuchhandlungByBuchhandlung auf getBuchhandlungByBuchnummer geändernt." />
+    <MESSAGE value="Rabbitmy-Server.exe wurde hinzugefügt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rabbitmy-Server.exe wurde hinzugefügt" />
   </component>
   <component name="WindowStateProjectService">
     <state x="527" y="41" key="#com.intellij.ide.util.MemberChooser" timestamp="1620167207745">
@@ -236,38 +253,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="436" y="52" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1619901274108" />
-    <state width="1103" height="234" key="GridCell.Tab.0.bottom" timestamp="1620815889837">
+    <state width="1103" height="234" key="GridCell.Tab.0.bottom" timestamp="1620819598207">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1103" height="234" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1620815889837" />
-    <state width="1103" height="234" key="GridCell.Tab.0.center" timestamp="1620815889836">
+    <state width="1103" height="234" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1620819598207" />
+    <state width="1103" height="234" key="GridCell.Tab.0.center" timestamp="1620819598207">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1103" height="234" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1620815889836" />
-    <state width="1103" height="234" key="GridCell.Tab.0.left" timestamp="1620815889836">
+    <state width="1103" height="234" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1620819598207" />
+    <state width="1103" height="234" key="GridCell.Tab.0.left" timestamp="1620819598207">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1103" height="234" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1620815889836" />
-    <state width="1103" height="234" key="GridCell.Tab.0.right" timestamp="1620815889837">
+    <state width="1103" height="234" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1620819598207" />
+    <state width="1103" height="234" key="GridCell.Tab.0.right" timestamp="1620819598207">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1103" height="234" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1620815889837" />
-    <state width="1103" height="234" key="GridCell.Tab.1.bottom" timestamp="1620815889837">
+    <state width="1103" height="234" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1620819598207" />
+    <state width="1103" height="234" key="GridCell.Tab.1.bottom" timestamp="1620819598209">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1103" height="234" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1620815889837" />
-    <state width="1103" height="234" key="GridCell.Tab.1.center" timestamp="1620815889837">
+    <state width="1103" height="234" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1620819598209" />
+    <state width="1103" height="234" key="GridCell.Tab.1.center" timestamp="1620819598208">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1103" height="234" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1620815889837" />
-    <state width="1103" height="234" key="GridCell.Tab.1.left" timestamp="1620815889837">
+    <state width="1103" height="234" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1620819598208" />
+    <state width="1103" height="234" key="GridCell.Tab.1.left" timestamp="1620819598208">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1103" height="234" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1620815889837" />
-    <state width="1103" height="234" key="GridCell.Tab.1.right" timestamp="1620815889837">
+    <state width="1103" height="234" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1620819598208" />
+    <state width="1103" height="234" key="GridCell.Tab.1.right" timestamp="1620819598209">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1103" height="234" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1620815889837" />
+    <state width="1103" height="234" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1620819598209" />
     <state width="1103" height="420" key="GridCell.Tab.2.bottom" timestamp="1620165043469">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -288,10 +305,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="183" y="0" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1620123113109" />
-    <state x="261" y="81" key="Vcs.Push.Dialog.v2" timestamp="1620813334462">
+    <state x="261" y="81" key="Vcs.Push.Dialog.v2" timestamp="1620818925067">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="261" y="81" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1620813334462" />
+    <state x="261" y="81" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1620818925067" />
     <state x="356" y="0" key="new project wizard" timestamp="1619900758364">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
