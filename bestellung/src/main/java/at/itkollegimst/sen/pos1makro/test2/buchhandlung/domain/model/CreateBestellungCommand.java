@@ -3,13 +3,13 @@ package at.itkollegimst.sen.pos1makro.test2.buchhandlung.domain.model;
 import lombok.Value;
 
 @Value
-public class CreateBestellung {
+public class CreateBestellungCommand {
     String bestellungsnummer;
     boolean abgeholt;
     boolean bezahlt;
 
 
-    public CreateBestellung(String bestellungsnummer, boolean abgeholt, boolean bezahlt) {
+    public CreateBestellungCommand(String bestellungsnummer, boolean abgeholt, boolean bezahlt) {
         this.bestellungsnummer = bestellungsnummer;
         this.abgeholt = abgeholt;
         this.bezahlt = bezahlt;

@@ -1,5 +1,6 @@
-package at.itkollegimst.sen.pos1makro.test2.buchhandlung.domain.buchhandlung;
+package at.itkollegimst.sen.pos1makro.test2.buchhandlung.application.queryservices;
 
+import at.itkollegimst.sen.pos1makro.test2.buchhandlung.domain.model.aggregate.Buchhandlung;
 import at.itkollegimst.sen.pos1makro.test2.buchhandlung.infrastructure.repo.BuchhandlungRepo;
 import org.springframework.stereotype.Service;
 
@@ -13,12 +14,10 @@ public class BuchhandlungQueryService {
         this.buchhandlungRepo = buchhandlungRepo;
     }
 
-    public Buchhandlung getBestellungByBuchname(String buchname){
-        return buchhandlungRepo.getBuchhandlungByBuchhandlung(buchname);
+    public Optional<Buchhandlung> getBuchhandlungByBuchnummer(String buchnummer){
+        return buchhandlungRepo.getBuchhandlungByBuchnummer(buchnummer);
     }
 
-    public Buchhandlung bestellungExisting(String buchname){
-        return buchhandlungRepo.getBuchhandlungByBuchhandlung(buchname);
-    }
+
 
 }

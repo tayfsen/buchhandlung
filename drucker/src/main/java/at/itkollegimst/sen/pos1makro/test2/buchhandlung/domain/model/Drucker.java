@@ -1,4 +1,4 @@
-package at.itkollegimst.sen.pos1makro.test2.buchhandlung.domain.drucker;
+package at.itkollegimst.sen.pos1makro.test2.buchhandlung.domain.model;
 
 import lombok.Data;
 
@@ -21,9 +21,9 @@ public class Drucker {
     public Drucker() {
     }
 
-    public Drucker(CreateDruckerCommand createDruckerCommand) {
-        this.buchdruck = createDruckerCommand.buchdruck();
-        this.buchGebunden = createDruckerCommand.buchGebunden();
+    public Drucker(CreateDrucker createDrucker) {
+        this.buchdruck = createDrucker.buchdruck();
+        this.buchGebunden = createDrucker.buchGebunden();
     }
 
 

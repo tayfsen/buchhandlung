@@ -20,10 +20,10 @@ public class Bestellung  {
     public Bestellung() {
     }
 
-    public Bestellung(CreateBestellung createBestellung) {
-        this.bestellungsnummer = createBestellung.getBestellnummer();
-        this.abgeholt = createBestellung.getAbgeholt();
-        this.bezahlt = createBestellung.getBezahlt();
+    public Bestellung(CreateBestellungCommand createBestellungCommand) {
+        this.bestellungsnummer = createBestellungCommand.getBestellnummer();
+        this.abgeholt = createBestellungCommand.getAbgeholt();
+        this.bezahlt = createBestellungCommand.getBezahlt();
     }
 
 
