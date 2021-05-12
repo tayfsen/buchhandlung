@@ -22,29 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e182484-2424-40cb-b098-7cdc5d647111" name="Default Changelist" comment="Größere Änderungen bei Bestellung MS, es wurden die Package-Name geändert, Controller, CreateBestellungDto, Query für die Abfragen und Repo wurde dazu implementiert. Es wurde auch Postman schon verwendet um die um den Controller zu testen!">
-      <change afterPath="$PROJECT_DIR$/bestellung/src/main/java/at/itkollegimst/sen/pos1makro/test2/buchhandlung/infrastructure/repo/mapper/BestellungCommandDtoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bestellung/src/main/java/at/itkollegimst/sen/pos1makro/test2/buchhandlung/infrastructure/repo/mapper/BestellungEntityDtoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/buchhandlung/src/main/java/at/itkollegimst/sen/pos1makro/test2/buchhandlung/interfaces/rest/BuchhandlungCommandDtoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/buchhandlung/src/main/java/at/itkollegimst/sen/pos1makro/test2/buchhandlung/interfaces/rest/BuchhandlungController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/buchhandlung/src/main/java/at/itkollegimst/sen/pos1makro/test2/buchhandlung/interfaces/rest/BuchhandlungEntityDtoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/buchhandlung/src/main/java/at/itkollegimst/sen/pos1makro/test2/buchhandlung/interfaces/rest/dtos/CreateBuchhandlungDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drucker/src/main/java/at/itkollegimst/sen/pos1makro/test2/buchhandlung/application/commandservice/DruckerCommandService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drucker/src/main/java/at/itkollegimst/sen/pos1makro/test2/buchhandlung/application/queryservice/DruckerQueryService.java" afterDir="false" />
+    <list default="true" id="3e182484-2424-40cb-b098-7cdc5d647111" name="Default Changelist" comment="Package-Namen wurden geändernt, bei der BuchhandlungRepo wurde der Name von getBuchhandlungByBuchhandlung auf getBuchhandlungByBuchnummer geändernt.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bestellung/src/main/java/at/itkollegimst/sen/pos1makro/test2/buchhandlung/application/commandservices/BestellungCommandService.java" beforeDir="false" afterPath="$PROJECT_DIR$/bestellung/src/main/java/at/itkollegimst/sen/pos1makro/test2/buchhandlung/application/commandservices/BestellungCommandService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bestellung/src/main/java/at/itkollegimst/sen/pos1makro/test2/buchhandlung/domain/model/Bestellung.java" beforeDir="false" afterPath="$PROJECT_DIR$/bestellung/src/main/java/at/itkollegimst/sen/pos1makro/test2/buchhandlung/domain/model/Bestellung.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bestellung/src/main/java/at/itkollegimst/sen/pos1makro/test2/buchhandlung/domain/model/CreateBestellung.java" beforeDir="false" afterPath="$PROJECT_DIR$/bestellung/src/main/java/at/itkollegimst/sen/pos1makro/test2/buchhandlung/domain/model/CreateBestellungCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bestellung/src/main/java/at/itkollegimst/sen/pos1makro/test2/buchhandlung/interfaces/rest/mapper/BestellungCommandDtoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/bestellung/src/main/java/at/itkollegimst/sen/pos1makro/test2/buchhandlung/interfaces/rest/mapper/BestellungCommandDtoMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buchhandlung/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/buchhandlung/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buchhandlung/src/main/java/at/itkollegimst/sen/pos1makro/test2/buchhandlung/domain/buchhandlung/Buchhandlung.java" beforeDir="false" afterPath="$PROJECT_DIR$/buchhandlung/src/main/java/at/itkollegimst/sen/pos1makro/test2/buchhandlung/domain/model/aggregate/Buchhandlung.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buchhandlung/src/main/java/at/itkollegimst/sen/pos1makro/test2/buchhandlung/domain/buchhandlung/BuchhandlungCommandService.java" beforeDir="false" afterPath="$PROJECT_DIR$/buchhandlung/src/main/java/at/itkollegimst/sen/pos1makro/test2/buchhandlung/application/commandservices/BuchhandlungCommandService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buchhandlung/src/main/java/at/itkollegimst/sen/pos1makro/test2/buchhandlung/domain/buchhandlung/BuchhandlungQueryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/buchhandlung/src/main/java/at/itkollegimst/sen/pos1makro/test2/buchhandlung/application/queryservices/BuchhandlungQueryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buchhandlung/src/main/java/at/itkollegimst/sen/pos1makro/test2/buchhandlung/domain/buchhandlung/CreateBuchhandlungCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/buchhandlung/src/main/java/at/itkollegimst/sen/pos1makro/test2/buchhandlung/domain/model/commands/CreateBuchhandlungCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buchhandlung/src/main/java/at/itkollegimst/sen/pos1makro/test2/buchhandlung/infrastructure/repo/BuchhandlungRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/buchhandlung/src/main/java/at/itkollegimst/sen/pos1makro/test2/buchhandlung/infrastructure/repo/BuchhandlungRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drucker/src/main/java/at/itkollegimst/sen/pos1makro/test2/buchhandlung/domain/drucker/CreateDruckerCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/drucker/src/main/java/at/itkollegimst/sen/pos1makro/test2/buchhandlung/domain/model/CreateDrucker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drucker/src/main/java/at/itkollegimst/sen/pos1makro/test2/buchhandlung/domain/drucker/Drucker.java" beforeDir="false" afterPath="$PROJECT_DIR$/drucker/src/main/java/at/itkollegimst/sen/pos1makro/test2/buchhandlung/domain/model/Drucker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drucker/src/main/java/at/itkollegimst/sen/pos1makro/test2/buchhandlung/infrastructure/repo/DruckerRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/drucker/src/main/java/at/itkollegimst/sen/pos1makro/test2/buchhandlung/infrastructure/repo/DruckerRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buchhandlung/src/main/java/at/itkollegimst/sen/pos1makro/test2/buchhandlung/interfaces/rest/BuchhandlungController.java" beforeDir="false" afterPath="$PROJECT_DIR$/buchhandlung/src/main/java/at/itkollegimst/sen/pos1makro/test2/buchhandlung/interfaces/rest/BuchhandlungController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +140,7 @@
       <workItem from="1620147918039" duration="3305000" />
       <workItem from="1620151283011" duration="6794000" />
       <workItem from="1620162451127" duration="5873000" />
-      <workItem from="1620812028564" duration="1126000" />
+      <workItem from="1620812028564" duration="4390000" />
     </task>
     <task id="LOCAL-00001" summary="Domainen wurden angelegt mit den zugehörigen Repos">
       <created>1619902420233</created>
@@ -197,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620157771760</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Package-Namen wurden geändernt, bei der BuchhandlungRepo wurde der Name von getBuchhandlungByBuchhandlung auf getBuchhandlungByBuchnummer geändernt.">
+      <created>1620813326669</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1620813326669</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,7 +208,8 @@
     <MESSAGE value="BestellungQueryService wurde erstellt mit hilfe JpaRepo und ComandService wurde auch implementiert" />
     <MESSAGE value="BuchhandlungQueryService wurde erstellt mit hilfe JpaRepo und ComandService wurde auch implementiert" />
     <MESSAGE value="Größere Änderungen bei Bestellung MS, es wurden die Package-Name geändert, Controller, CreateBestellungDto, Query für die Abfragen und Repo wurde dazu implementiert. Es wurde auch Postman schon verwendet um die um den Controller zu testen!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Größere Änderungen bei Bestellung MS, es wurden die Package-Name geändert, Controller, CreateBestellungDto, Query für die Abfragen und Repo wurde dazu implementiert. Es wurde auch Postman schon verwendet um die um den Controller zu testen!" />
+    <MESSAGE value="Package-Namen wurden geändernt, bei der BuchhandlungRepo wurde der Name von getBuchhandlungByBuchhandlung auf getBuchhandlungByBuchnummer geändernt." />
+    <option name="LAST_COMMIT_MESSAGE" value="Package-Namen wurden geändernt, bei der BuchhandlungRepo wurde der Name von getBuchhandlungByBuchhandlung auf getBuchhandlungByBuchnummer geändernt." />
   </component>
   <component name="WindowStateProjectService">
     <state x="527" y="41" key="#com.intellij.ide.util.MemberChooser" timestamp="1620167207745">
@@ -248,38 +236,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="436" y="52" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1619901274108" />
-    <state width="1103" height="420" key="GridCell.Tab.0.bottom" timestamp="1620813087011">
+    <state width="1103" height="234" key="GridCell.Tab.0.bottom" timestamp="1620815889837">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1103" height="420" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1620813087011" />
-    <state width="1103" height="420" key="GridCell.Tab.0.center" timestamp="1620813087010">
+    <state width="1103" height="234" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1620815889837" />
+    <state width="1103" height="234" key="GridCell.Tab.0.center" timestamp="1620815889836">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1103" height="420" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1620813087010" />
-    <state width="1103" height="420" key="GridCell.Tab.0.left" timestamp="1620813087010">
+    <state width="1103" height="234" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1620815889836" />
+    <state width="1103" height="234" key="GridCell.Tab.0.left" timestamp="1620815889836">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1103" height="420" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1620813087010" />
-    <state width="1103" height="420" key="GridCell.Tab.0.right" timestamp="1620813087010">
+    <state width="1103" height="234" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1620815889836" />
+    <state width="1103" height="234" key="GridCell.Tab.0.right" timestamp="1620815889837">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1103" height="420" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1620813087010" />
-    <state width="1103" height="420" key="GridCell.Tab.1.bottom" timestamp="1620813087013">
+    <state width="1103" height="234" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1620815889837" />
+    <state width="1103" height="234" key="GridCell.Tab.1.bottom" timestamp="1620815889837">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1103" height="420" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1620813087013" />
-    <state width="1103" height="420" key="GridCell.Tab.1.center" timestamp="1620813087011">
+    <state width="1103" height="234" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1620815889837" />
+    <state width="1103" height="234" key="GridCell.Tab.1.center" timestamp="1620815889837">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1103" height="420" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1620813087011" />
-    <state width="1103" height="420" key="GridCell.Tab.1.left" timestamp="1620813087011">
+    <state width="1103" height="234" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1620815889837" />
+    <state width="1103" height="234" key="GridCell.Tab.1.left" timestamp="1620815889837">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1103" height="420" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1620813087011" />
-    <state width="1103" height="420" key="GridCell.Tab.1.right" timestamp="1620813087011">
+    <state width="1103" height="234" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1620815889837" />
+    <state width="1103" height="234" key="GridCell.Tab.1.right" timestamp="1620815889837">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1103" height="420" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1620813087011" />
+    <state width="1103" height="234" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1620815889837" />
     <state width="1103" height="420" key="GridCell.Tab.2.bottom" timestamp="1620165043469">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -300,10 +288,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="183" y="0" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1620123113109" />
-    <state x="261" y="81" key="Vcs.Push.Dialog.v2" timestamp="1620157774779">
+    <state x="261" y="81" key="Vcs.Push.Dialog.v2" timestamp="1620813334462">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="261" y="81" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1620157774779" />
+    <state x="261" y="81" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1620813334462" />
     <state x="356" y="0" key="new project wizard" timestamp="1619900758364">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -316,9 +304,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="341" y="183" width="840" height="1034" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1620164465738" />
-    <state x="347" y="-1" width="840" height="1034" key="search.everywhere.popup" timestamp="1620167281234">
+    <state x="347" y="-1" width="840" height="1034" key="search.everywhere.popup" timestamp="1620815903504">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="347" y="-1" width="840" height="1034" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1620167281234" />
+    <state x="347" y="-1" width="840" height="1034" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1620815903504" />
   </component>
 </project>
